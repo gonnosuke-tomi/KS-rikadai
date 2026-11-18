@@ -55,6 +55,26 @@ h3 ::before {
     border-bottom: solid 15px transparent;
     border-left: solid 20px rgb(149, 158, 155);
 }
+
+h4  {
+    font-size: 50px;
+    line-height: 1.2;
+    /*1.2*50px=60px*/
+    position: relative;
+    padding: 0.5em;
+    background: #3d0ad8;
+    color: rgb(234, 234, 244);
+}
+
+h4 ::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 15px transparent;
+    border-left: solid 20px rgb(149, 158, 155);
+}
 p{
     text-align:center;
     font-size: 20px;
